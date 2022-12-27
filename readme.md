@@ -1,36 +1,31 @@
-# git 정리
 
-- 저장소 생성
-    $ git init : git 저장소 만들고 관리
+## CLI 환경
+- Command Line Interface
+- 가상 터미널 또는 텍스트 터미널을 통해 사용자와 컴퓨터가 상호작용
 
-- 버전 관리
-    1. 작업을 하고
-    2. 변경된 파일을 모아 (add)
-    3. 버전으로 남긴다 (commit)
+## GUI 환경
+- Graphic User Interface
+- 폴더 같이 이미지나 그래픽으로 보여지는 
+- 스마트폰 : 터치 인터페이스
 
-## git 기초 명령어
+## 구성요소
 
-### $ git add <file>
-- working directory 상의 변경내용을 staging area에 추가하기 위해 사용
+### 명령어
+- $ ls : 있는 파일 list
 
-### git commit -m'<커밋메세지>'
-- staged 상태의 파일을 커밋을 통해 버전으로 기록
+- $ mkdir : 디렉토리 생성 (make directory)
 
-### git status
--  현재 파일 상태
+- $ cd : 디렉토리 이동 (change directory)
+   
+    - . : 현재 디렉토리
+    
+    - .. : 상위 디렉토리
 
-### git log
-- 현재 저장소에 기록된 커밋 조회
-    - $ git log -1 : 최근 1개
-    - $ git log --oneline : 한줄로
+- touch + 파일명 : 새로운 파일을 생성
 
-## git 상황들
-- (1통) Untracted Files : 1.txt를 만들었지만, add를 하지 않음
-- (2통) Changed to be commited : 보고서.txt를 만들고 add함
-- nothing to commit, working tree clean : 모두 add, commit,한 이후 => 1통, 2통 비어있음
-- Changes not staged for commit : 커밋된 적 있는 보고서.txt 파일을 수정한 상태
+- rm + 파일명 : 파일 삭제 (remove)
+    
+    - 폴더는 rm으로 삭제 안 됨
 
+- rm -r b : b 폴더 제거
 
-> 정리
-> git.init
-> git.add
