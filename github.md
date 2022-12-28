@@ -38,17 +38,19 @@ GitHub에 올리고 로컬에서 파일을 지우면 사라지나요 ?
 
 ## 명령어 정리
 
-    git clone <url> : 원격저장소 복제
+    - git clone <url> : 원격저장소 복제
 
-    git remote -v : 원격저장소 정보확인
+    - git remote -v : 원격저장소 정보확인
 
-    git remote add <원격저장소> <url> : 원격저장소 추가 (일반적으로 origin)
+    - git remote add <원격저장소> <url> : 원격저장소 추가 (일반적으로 origin)
 
-    git remote rm <원격저장소> : 원격저장소 삭제
+    - git remote rm <원격저장소> : 원격저장소 삭제
 
-    git push <원격저장소> <브랜치> : 원격저장소에 push
+    - git push <원격저장소> <브랜치> : 원격저장소에 push
+        git push origin master
 
-    git pull <원격저장소> <브랜치> : 원격저장소에 pull
+    - git pull <원격저장소> <브랜치> : 원격저장소에 pull
+        git pull origin master
 
 
 > git ignore
