@@ -46,5 +46,25 @@
 
 ---
 
+> ## **🌱 12월 29일**
 
+- GitHub [나의 프로필](https://github.com/haelim12/haelim12#readme) 만들기 
+
+- [Branch](https://github.com/haelim12/TIL/blob/master/github_branch.md)
+
+    명령어, Git flow 등
+
+- GitHub 에서 프로젝트 진행하기 (3개월 뒤)
+
+    1. TIL 같이 기록을 하면서 매일 커밋 하기
+
+    CLI : add, commit, push
+
+    2. 과정 중에 PR 참여하기
+
+- KDT 2기 첫 주 소감, 다짐 => 실습
+
+    [KDT_week1_소감](https://github.com/haelim12/2nd-start/blob/master/5%ED%9A%8C%EC%B0%A8_%EA%B3%A0%ED%95%B4%EB%A6%BC.md)
+
+---
 
