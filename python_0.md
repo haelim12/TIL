@@ -181,3 +181,42 @@
 - Immutable : 변경 불가능
 
 - Iterable : 반복 가능
+
+## 리스트 (List)
+
+- 배열, 나열, array
+
+- 정의 : 변경 가능한 값들이 나열된 자료형 [ ~~~ ]
+
+- 생성과 접근 
+
+    - [ ] 혹은 list() 통해 생성
+
+    - 순서가 있는 시퀀스로 접근
+
+- 리스트 값 추가 / 삭제
+
+    - 값 추가 : .append() 활용
+
+        even_numbers = [2, 4, 6, 8]
+
+        even_numbers. append(10)
+
+    - 값 삭제 : .pop() 활용
+
+        even_numbers = [2, 4, 6, 8]
+
+        even_numbers.pop(0)
+
+        even_numbers = [4, 6, 8]
+
+- 예시 )
+
+    boxes = ['apple', 'banana']
+
+    len(boxes) = 2
+
+    boxes[1] = 'banana'
+    
+    boxes[1][0] = 'b'
+
