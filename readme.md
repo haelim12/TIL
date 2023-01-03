@@ -97,3 +97,22 @@
 - 공고 사이트 : WANTED, programmers, 자소설닷컴, 점프, 링크드인
 
 ---
+
+> ## **🌱 DAY 6 _ 1/2**
+
+- [파이썬 기초](https://github.com/haelim12/TIL/blob/master/python_0.md)
+
+    - 파이썬 특징, Type
+
+- [파이썬 시작하기](https://github.com/haelim12/TIL/blob/master/python_1.md)
+
+    - 파이썬 필수 단축키 등
+---
+
+> ## **🌱 DAY 7 _ 1/3**
+
+- [파이썬 제어문](https://github.com/haelim12/TIL/blob/master/python_2.md)
+
+    - 제어문, 조건문, 반복문(for문, 반복문 제어)
+
+- 백준허브 
