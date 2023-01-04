@@ -9,7 +9,7 @@
 
 - 반복 제어 : break, continue, for-else
 
-## while 문
+## 🎈 while 문
 
 - 조건식이 참인 경우 반복적으로 코드 실행
 
@@ -25,7 +25,7 @@
     print('끝')
     ```
 
-## 함수의 기초
+## 🎈 함수의 기초
 
 - 함수 : 특정한 기능을 하는 코드의 조각
 
@@ -56,7 +56,7 @@
     - bin(x), hex(x), oct(x), ord(), chr()
 
 
-## map
+## 🎈 map
 
 - map(function, iterable) : 순회 가능한 데이터 구조(iterable)의 모든 요소에 함수(function)을 적용
 
