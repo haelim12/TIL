@@ -148,4 +148,4 @@
 
 - [파이썬 메서드(method)](https://github.com/haelim12/TIL/blob/master/week_03/python_method.md)
 
-    - 세트, 딕셔너리, 문자열, 리스트
+    - 세트, 딕셔너리, 문자열, 리스트 
