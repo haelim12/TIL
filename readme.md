@@ -133,3 +133,19 @@
 - [파이썬 모듈, 예외처리](https://github.com/haelim12/TIL/blob/master/python_4.md)
 
     - 딕셔너리, 모듈, 에러 및 예외
+
+---
+
+> ## **🌱 DAY 10 _ 1/6**
+
+- 미니 프로젝트
+
+    - json
+
+---
+
+> ## **🌱 DAY 11 _ 1/9**
+
+- [파이썬 메서드(method)](https://github.com/haelim12/TIL/blob/master/week_03/python_method.md)
+
+    - 세트, 딕셔너리, 문자열, 리스트
