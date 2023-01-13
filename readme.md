@@ -155,3 +155,21 @@
 > ## **🌱 DAY 12 _ 1/10**
 
 - [파이썬_input,output](https://github.com/haelim12/TIL/blob/master/week_03/python_func.md)
+
+---
+
+> ## **🌱 DAY 13 _ 1/11**
+
+---
+
+> ## **🌱 DAY 14 _ 1/12**
+
+---
+
+> ## **🌱 DAY 15 _ 1/13**
+
+- 개인 프로젝트 2
+
+- API
+
+    - API 받아오기
