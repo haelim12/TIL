@@ -18,7 +18,7 @@
 
 - FROM 키워드 다음에 데이터를 선택하려는 테이블의 이름을 지정
 
-#### Examples
+### **< Examples >**
 
 1. 테이블 employees 에서 lastName, FirstName 필드의 모든 데이터 조회
 
