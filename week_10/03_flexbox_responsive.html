@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .card {
+      border: 1px solid black;
+      width: 80%;
+      display: flex;
+      /* 초과됐을 때 개행 */
+      flex-wrap: wrap;
+    }
+    
+    /* 이미지 사이즈 딱 맞추기 */
+    image {
+      width: 100%;
+    }
+
+    .card-img {
+      flex-basis: 700px;
+      flex-grow: 1;
+      /* flex: 1 700px; */
+    }
+
+    .content {
+      border: 1px solid black;
+      flex-basis: 350px;
+      flex-grow: 1;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="card"> 
+    <img class="card-img" src="images/sample.jpg" alt="">
+    <div class="content">
+      <h2>Heading</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur officiis rem veritatis numquam odit inventore, quae ipsum impedit accusamus totam! Rem dignissimos distinctio quae quos expedita quidem maiores debitis quia?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam eaque labore vitae praesentium repellendus accusantium quam ex itaque, dolorum eius! Et, mollitia, officia fugit inventore provident odio alias autem assumenda ea atque eos repellendus esse amet officiis quaerat pariatur, laboriosam adipisci deserunt minus debitis eaque magnam aut. Soluta ipsa, totam similique adipisci sunt eos doloremque consequuntur a ducimus accusamus facilis ex odio voluptas minus, eveniet amet et, voluptate voluptates omnis beatae ipsam inventore quis. Necessitatibus rem perspiciatis hic inventore, temporibus nobis natus eius corporis, deserunt, et quidem quis excepturi ducimus laudantium aliquid amet id enim? Maxime labore quis repudiandae ab?</p>
+    </div>
+  </div> 
+</body>
+</html>
