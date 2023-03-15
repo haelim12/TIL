@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const fruits = ['apple', 'banana', 'coconut']
+
+
+    // forEach - 사용 권장
+    // 반복문
+    fruits.forEach(function (fruit, idx) {
+      console.log(fruit, idx) 
+      // apple 0 
+      // banana 1
+      // coconut 2
+    })
+
+    fruits.forEach((fruit, idx) => {
+      console.log(fruit, idx) 
+      // apple 0 
+      // banana 1
+      // coconut 2
+    })
+
+    // map
+    const numbers = [1, 2, 3]
+
+    const doubleNumbers1 = numbers.map(function (number) {
+      return number * 2
+    })
+
+    const doubleNumbers2 = numbers.map((number) => {
+      return number * 2
+    })
+
+    console.log(doubleNumbers1) // [2, 4, 6]
+    console.log(doubleNumbers2) // [2, 4, 6]
+    // 0: 2
+    // 1: 4
+    // 2: 6
+
+
+
+
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3-1.Object</title>
+</head>
+<body>
+  <script>
+    const user = {
+      name : 'Sophia',
+      age : 30,
+      'key with space': true,
+    }
+
+    // 조회
+    console.log(user.age) // 30
+    console.log(user['age']) // 30
+    console.log(user['key with space']) // true
+
+    // 추가
+    user.address = 'korea'
+    console.log(user) 
+    // {name: 'Sophia', age: 30, key with space: true, address: 'korea'}
+
+    // 수정
+    user.age = 40
+    console.log(user)
+    // {name: 'Sophia', age: 40, key with space: true, address: 'korea'}
+
+    // 삭제
+    delete user.address
+    console.log(user)
+    // {name: 'Sophia', age: 40, key with space: true}
+
+    // in 연산자
+    console.log('age' in user) // true
+    console.log('country' in user) // false
+
+    const age = 30
+    const address = 'korea'
+
+    const oldUser = {
+      age: age,
+      address: address,
+    }
+
+    const newUser = {
+      age,
+      address,
+    }
+
+    // 계산된 속성
+    const a = 'hello'
+    const b = 'bye'
+    const product = prompt('물건 이름을 입력해주세요.')
+
+    const bag = {
+      // [키] : 값
+      [a]: 5,
+      [product]: 5,
+      [a + b]: true,
+    }
+
+    console.log(bag) // {hello: 5, 양말: 5, hellobye: true}
+    
+
+  </script>
+</body>
+</html>

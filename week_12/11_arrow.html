@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>2.Arrow</title>
+</head>
+<body>
+  <script>
+    // 화살표
+    const greeting = function (name) {
+      return `hello, ${name}`
+    }
+    
+    // 제일 자주 쓰이는 모양
+    const arrow1 = (name) => {
+      return `hello, ${name}`
+    }
+    console.log(arrow1('harry')) // hello, harry
+
+    // 표현식이 한 줄이라면 '{}', 'return' 생략 가능
+    const arrow2 = (name) => `hello, ${name}`
+    console.log(arrow2('harry')) // hello, harry
+
+    // 메개변수가 하나라면 '()' 생략 가능하지만 권장 x
+    const arrow3 = name => `hello, ${name}`
+    console.log(arrow2('harry')) // hello, harry
+
+
+  </script>
+</body>
+</html>
