@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+</head>
+<body>
+  <div></div>
+
+  <script>
+    // 1. Element(태그) 생성 createElement
+    console.log(document.createElement('h1')) // h1 태그 생성
+    const h1Tag = document.createElement('h1')
+    h1Tag.textContent = '제목'
+    console.log(h1Tag)
+
+    // 2. 문서에 추가 appendChild
+    // 어디에 ? 추가할 부모를 선택
+    const divTag = document.querySelector('div')
+    divTag.appendChild(h1Tag)
+    
+    // 3. Element 삭제 removeChild
+    divTag.removeChild(h1Tag)
+
+  </script>
+</body>
+</html>

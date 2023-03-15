@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Contents Manipulation</title>
+</head>
+<body>
+  <h1 class="title heading">DOM 선택</h1>
+  <a href="https://www.google.com/">google</a>
+  <p class="text">content1</p>
+  <p class="text">content2</p>
+  <p class="text">content3</p>
+  <ul>
+    <li>list1</li>
+    <li>list1</li>
+  </ul>
+
+
+  <script>
+    // h1 tag 선택
+    const h1Tag = document.querySelector('.heading')
+    console.log(h1Tag)
+    console.log(h1Tag.textContent) // 태그 안 내용물에 접근
+    // 내용 수정 textContent
+    h1Tag.textContent = '콘텐츠 수정'
+    console.log(h1Tag.textContent)
+
+
+  </script>
+
+</body>
+</html>
