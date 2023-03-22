@@ -6,39 +6,39 @@
 
 1. Variable (변수)
 
-  - **{{ variable }}**
+    **{{ variable }}**
 
-  - view 함수에서 render 함수의 세 번째 인자
+    - view 함수에서 render 함수의 세 번째 인자
 
-  - dictionary type 으로 받음
+    - dictionary type 으로 받음
 
-  - e딕셔너리 key에 해당하는 문자열이 template에서 사용 가능한 변수
+    - e딕셔너리 key에 해당하는 문자열이 template에서 사용 가능한 변수
 
-  - dot(.)을 사용하여 변수 속성 접근
+    - dot(.)을 사용하여 변수 속성 접근
 
 2. Filters
 
-  - **{{ variable | filter }}**
+    **{{ variable | filter }}**
 
-  - 변수를 수정할 대
+    - 변수를 수정할 대
 
-  - {{ name | truncatewords : 30 }}
+    - {{ name | truncatewords : 30 }}
 
 3. Tags
 
-  - **{% tag %}**
+    **{% tag %}**
 
-  - 출력 x
+    - 출력 x
 
-  - 반복, 논리를 수행하여 제어 흐름 만드는 등 변수보다 복잡한 일 수행
+    - 반복, 논리를 수행하여 제어 흐름 만드는 등 변수보다 복잡한 일 수행
 
-  - 일부는 시작, 종료 태그 필요 {% if %} {% endif %}
+    - 일부는 시작, 종료 태그 필요 {% if %} {% endif %}
 
 4. Comments (주석)
 
-  - {# name #}
+    - {# name #}
 
-  - {#comment#} {% endcomment %}
+    - {#comment#} {% endcomment %}
 
 ## 새로운 페이지 코드 작성
 
@@ -66,15 +66,15 @@
 
 1. Throw 뷰 함수
 
-  - form 태그를 출력하는 템플릿을 응답
+    - form 태그를 출력하는 템플릿을 응답
 
 2. Catch 뷰 함수
 
-  - throw 페이지에서 보낸 요청을 받고
+    - throw 페이지에서 보낸 요청을 받고
 
-  - 사용자 입력 데이터를 찾고
+    - 사용자 입력 데이터를 찾고
 
-  - 찾은 데이터를 템플릿에 변수로 넣어서 응답 
+    - 찾은 데이터를 템플릿에 변수로 넣어서 응답 
 
 =>
 
